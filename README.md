@@ -1,6 +1,6 @@
 Thank you for opening the readme file for this project.
 This project is **Chrome browser Bookmark Extension**
-- - -
+---
 
 CSBookmark Extension
 ====================
@@ -12,11 +12,5 @@ CSBookmark Extension
 
 ## Associate boormark list
 
-it just show the associate site link on opened current activities page 
-- - -
-
-
-
-
-
-
+it just show the associate site link on opened current activities page
+---

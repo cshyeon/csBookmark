@@ -1,19 +1,29 @@
 {
-  "manifest_version": 2,
-  "name": "csBookmark",
-  "version": "0.1",
+	"manifest_version": 2,
+	"name": "csBookmark",
+	"version": "0.1",
 
-  "description": "Bookmark extension, it will be support associate link later",
+	"description": "Bookmark extension, it will be support associate link later",
 
-  "browser_action": {
-    "default_title": "Bookmark list Show/Hide"
-  },
+	"browser_action": {
+		"default_title": "Bookmark list Show/Hide"
+	},
 
-  "permissions": [
-    "activeTab",
-    "tabs"
-  ],
-  "background": {
-    "scripts": ["bookmarkApp.js"]
-  }
+	"permissions": [
+		"activeTab",
+		"tabs"
+	],
+
+	"background": {
+		"scripts": ["bookmarkApp.js"]
+	},
+	"commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Q",
+                "windows": "Ctrl+Q",
+                "mac": "Command+Q"
+            }
+        }
+	}
 }
